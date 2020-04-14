@@ -1,0 +1,14 @@
+https://stackoverflow.com/questions/41446560/react-setstate-not-updating-state
+
+https://stackoverflow.com/questions/57644561/react-passing-data-between-components-using-router-in-app-jsparent-component
+
+https://w3path.com/react-image-upload-or-file-upload-with-preview/
+
+Pic upload:  https://codepen.io/hartzis/pen/VvNGZP?editors=1111
+
+
+
+https://stackoverflow.com/questions/43455200/how-to-pass-data-from-one-component-to-another-in-react-or-react-redux
+  eg:    ------------      this.setState({
+								[event.target.name]: event.target.value
+							});

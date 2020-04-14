@@ -1,0 +1,83 @@
+.wrapper {
+  margin: 0 auto;
+  max-width: 1200px !important;}
+
+.form-md .form-group {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
+}
+.form-group {
+  margin-bottom: 15px;
+  position: relative;
+}
+.form-field {
+  position:relative;
+  margin-bottom:20px;
+}
+span.custom-control-description {
+	font-size: 0.9rem;
+}
+
+/* .custom-input {
+  box-shadow: 0 0 0 0 !important;
+} */
+
+input:not([type="submit"]) {
+  position: relative;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #DDD;
+  background-color: transparent;
+  margin: 0px auto;
+  padding: 10px 0px 0px 0px;
+  height: 32px;
+  outline: none !important;
+  font-size: 0.9rem;
+  color: rgba(0,0,0,0.8);
+  background: -webkit-linear-gradient(bottom, #00508B 50%, #00508B 50%);
+  background: linear-gradient(to top, #00508B 50%, #00508B 50%);
+  background-position: left bottom;
+  background-size: 0 1px;
+  background-repeat: no-repeat;
+  transition: all .2s ease-in-out;
+}
+::-webkit-input-placeholder { text-align: right; color: #DDD; font-size: 13px; font-weight: 200; }
+:-moz-placeholder { text-align: right; color: #DDD; font-size: 13px; font-weight: 200; }
+::-moz-placeholder { text-align: right; color: #DDD; font-size: 13px; font-weight: 200; }
+:-ms-input-placeholder { text-align: right; color: #DDD; font-size: 13px; font-weight: 200; }
+
+label {
+  position: absolute;
+  top: -15px; 
+  left: 0;
+  text-align: left;
+  display: block;
+  width: 100%;
+  height: 52px;
+  line-height: 72px;
+  font-size: 1rem;
+  font-weight: 400;
+  background: transparent;
+  color: rgba(0,0,0,0.6);
+  margin: 0px auto;
+  cursor: text;
+  transition: all .15s ease-in-out;
+}
+input:hover, input:focus { border-color: #00508B; }
+input:focus { 
+  background-position: left bottom;
+  background-size: 100% 1px;
+}
+input:valid + label, input:focus + label { 
+  height: 20px; 
+  line-height: 20px; 
+  font-size: 0.9rem;
+  color: #00508b;
+}
+
+input:focus ::-webkit-input-placeholder { color: transparent; font-size: 0; }
+input:focus :-moz-placeholder { color: transparent; font-size: 0; }
+input:focus ::-moz-placeholder { color: transparent; font-size: 0; }
+input:focus :-ms-input-placeholder { color: transparent; font-size: 0; }
