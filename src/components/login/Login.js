@@ -29,7 +29,7 @@ class Login extends React.Component {
 		e.preventDefault();
 		this.login_obj = {username:this.state.phone};
 		localStorage.setItem('testObject', JSON.stringify(this.login_obj));
-		$('#form1').parsley();
+		
 		this.props.history.push('/dashboard');
 	}
 
