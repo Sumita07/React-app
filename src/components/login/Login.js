@@ -40,7 +40,7 @@ class Login extends React.Component {
 					<div className="col-lg-7 custom-login">
 						<div className="card p-2 p-md-4 mb-4">
 							<div className="card-body">
-								<h4 className="card-title text-success">Log In</h4><br/>
+								<h4 className="card-title text-success">Document management Login</h4><br/>
 								<form className="form form-register form-group" id="form1" onSubmit={this.login}>
 									<div className="form-field flex-wrap">
 										<input name="phone" id="register-username" type="text"
